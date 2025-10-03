@@ -3,6 +3,7 @@ import { assets } from './../assets/assets';
 
 const navbar = () => {
     const[showMobileMenu,setShowMobileMenu]=useState(false)
+    
     useEffect(()=>{
   if(showMobileMenu){
     document.body.style.overflow='hidden'
